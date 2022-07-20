@@ -1,0 +1,17 @@
+{
+  "name": "coin-machine-mutation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/coin-machine.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:mutation": "npx stryker run"
+  },
+  "testRunner": "jest",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@stryker-mutator/jest-runner": "^6.1.2",
+    "jest": "^28.1.3"
+  }
+}
