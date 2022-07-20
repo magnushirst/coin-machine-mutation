@@ -1,4 +1,4 @@
-# Coin Machine KATA with Mutation Testing
+# Coin Machine Kata with Mutation Testing
 The purpose of this project is to show the use of mutation testing for improved visibility of unit test coverage and
 quality.
 
