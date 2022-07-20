@@ -6,5 +6,10 @@ module.exports = {
     testFramework: 'jest',
     testRunner: 'jest',
     reporters: ['progress', 'clear-text', 'html'],
-    coverageAnalysis: 'perTest'
+    coverageAnalysis: 'perTest',
+    thresholds: {
+        high: 80,
+        low: 60,
+        break: 60
+    }
 }
